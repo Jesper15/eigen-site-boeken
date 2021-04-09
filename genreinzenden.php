@@ -13,14 +13,13 @@ if (!$_SESSION['logged-in']) {
     header("Location: login.php");
     exit;
 }
-
 ?>
 
-<h1 xmlns="http://www.w3.org/1999/html">Genre inzenden</h1>
+<form action="inc/genreinzenden.php" method="POST" class="formpage">
+
+<h1>Genre inzenden</h1>
 
 <h4>Hier kan je genres inzenden:</h4>
-
-<form action="inc/genreinzenden.php" method="POST" class="formpage">
 
     <label for="genreNaam">Naam van de genre:</label>
     <input type="text" id="genreNaam" name="genreNaam" required>

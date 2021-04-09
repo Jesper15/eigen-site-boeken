@@ -13,14 +13,13 @@ if (!$_SESSION['logged-in']) {
     header("Location: login.php");
     exit;
 }
-
 ?>
 
-<h1>Schrijver inzenden</h1>
-
-<h4>Hier kan je schrijvers inzenden:</h4>
-
 <form action="inc/schrijverinzenden.php" method="POST" class="formpage">
+    <h1>Schrijver inzenden</h1>
+
+    <h4>Hier kan je schrijvers inzenden:</h4>
+
     <label for="schrijvernaam">Naam:</label>
     <input type="text" id="schrijvernaam" name="schrijvernaam" required>
     <br>

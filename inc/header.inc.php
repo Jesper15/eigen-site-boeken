@@ -39,8 +39,8 @@
             <a href="inzendingen.php">Boeken inzenden</a>
             <a href="schrijvers.php">Schrijvers</a>
             <a href="schrijverinzenden.php">Schrijvers inzenden</a>
-            <a href="genreinzenden.php">Genres inzenden</a>
             <a href="genres.php">Genres</a>
+            <a href="genreinzenden.php">Genres inzenden</a>
             <form method="POST">
                 <!-- plaatst hier die button -->
                 <button class="btn_loginpage" name="logout" href="login.php"><?php echo $text; ?></button>
