@@ -28,35 +28,18 @@ include 'inc/header.inc.php';
 
     <div class="wrapper-login">
         <Form action="inc/login.inc.php" method="POST" class="login_A"><p>Login</p><br>
-            <table class="login-table"> <!-- <-- hier begint de table -->
-                <tr> <!-- <-- een row van een table -->
-                    <td> <!-- een vakje (column) -->
-                        <label>Email</label>
-                    </td>
-                    <td>
-                        <input type="text" name="uname" placeholder="Email" required>
-                    </td>
-                </tr>
+            <table class="login-table">
 
-                <tr>
-                    <td>
-                        <label>Password</label>
-                    </td>
-                    <td>
-                        <input type="password" name="password" placeholder="Password" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <!-- mag leeg blijven aangezien linker vakje leeg is dan -->
-                    </td>
-        
-                    <td>
-                        <button style="margin-top: 10px;" class="submit_btn" type="submit" name="submit">Login</button>
-                        <button><a class="link_btn" href="./signup.php">Sign Up </a></button>
-                    </td>
-                </tr>
+                    <!--email field-->
+                        <input class="login-input" type="text" name="uname" placeholder="Email" required>
+
+                    <!--password field-->
+                        <input class="login-input" type="password" name="password" placeholder="Password" required>
+
+                        <button class="btn_login" type="submit" name="submit">Login</button>
+                        <button class="btn_login" onclick="window.location.href='signup.php'">Sign Up </></button>
             </table>
+
     <?php
     // checkt of er een sessie bestaat
     if (!isset($_SESSION)) {

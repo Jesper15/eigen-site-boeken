@@ -17,11 +17,12 @@ if (!$_SESSION['logged-in']) {
 
 ?>
 
-<h1>Boeken inzenden</h1>
-
-<h4>Hier kan je boeken inzenden:</h4>
-
 <form action="inc/inzenden.php" method="POST" class="formpage">
+
+    <h1>Boeken inzenden</h1>
+
+    <h4>Hier kan je boeken inzenden:</h4>
+
     <label for="titel">Titel:</label>
     <input type="text" id="titel" name="titel" required>
     <br>
@@ -53,7 +54,7 @@ if (!$_SESSION['logged-in']) {
     <br>
 
     <label for="kortebeschrijving">Beschrijving:</label>
-    <textarea type="text" id="kortebeschrijving" name="kortebeschrijving" required></textarea>
+    <textarea id="kortebeschrijving" name="kortebeschrijving" required></textarea>
     <br>
 
     <label for="genre">Genre:</label>

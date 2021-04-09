@@ -3,9 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
 }
 
+ul a {
+    text-decoration: none;
+}
 
+a {
+    font-size: larger;
+    justify-content: space-between;
+    width: 30%;
+}
+
+/*Navigatie balk en naam*/
 
 .naam {
     justify-content: flex-start;
@@ -16,30 +27,208 @@
     width: 25%;
 }
 
-ul a {
-    text-decoration: none;
+.navigatie {
+    display: flex;
+    align-items: center;
+    background-color: red;
 }
 
-a {
-    font-size: larger;
-    justify-content: space-around;
-    width: 30%;
+.navigatie ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
 }
+
+.navigatie ul a {
+    color: white;
+}
+
+.navigatie ul a:hover {
+    color: orange;
+}
+
+.navigatie h1 {
+    width: 25%;
+    font-size: 30px;
+}
+
+.navigatie form {
+    width: 5%;
+}
+
+/*Homepage*/
+
+.home {
+    display: flex;
+    gap: 50px !important;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.home h1 {
+    font-size: 40px;
+}
+
+/*Login page*/
+
+.wrapper-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 300px;
+}
+
+.login-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.btn_login {
+    width: 100%;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    padding: 12px;
+}
+
+.wrapper-login p {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.btn_loginpage {
+    width: 125%;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    padding: 12px;
+}
+
+/*Signup page*/
+
+.register input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    flex-direction: column;
+}
+
+.signup p {
+    font-size: 30px;
+}
+
+.signup_input {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+}
+
+.btn_signup {
+    width: 25%;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    padding: 12px;
+}
+
+/*Boeken inzenden page*/
+
+.formpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formpage h1 {
+    font-size: 40px;
+}
+
+.formpage h4 {
+    font-size: 20px;
+}
+
+.formpage input[type=text] {
+    width: 25%;
+}
+
+.formpage label {
+    font-weight: bold;
+}
+
+.formpage button[type=submit] {
+    border-radius: 15px;
+    background-color: green;
+    width: 25%;
+    color: white;
+}
+
+/*Boeken pagina*/
 
 .resultaten {
-    border: 1px solid black;
-}
-
-.navigatie nav {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    width: 50%;
-    background-color: blue;
+    justify-content: center;
+    padding: 250px;
 }
 
-.wrapper-login login-table {
-    display: none;
-    width: 100%;
-    height: 100%;
+.wrappercontent h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrappercontent h4 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/*genre pagina*/
+
+.wrappercontentgenre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    flex-direction: row;
+}
+
+.resultatengenre h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.resultatengenre h4 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.resultatengenre {
+    padding: 250px;
 }

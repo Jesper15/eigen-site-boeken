@@ -23,8 +23,6 @@ if (!$_SESSION['logged-in']) {
 </head>
 
 <body>
-<h1>Boeken</h1>
-<h4>Dit zijn de boeken die ik heb gelezen</h4>
 
 <?php
 //opstellen van de query
@@ -40,11 +38,16 @@ if(!$conn) {
 
 //testen of er rijen in de database staan
 if($result->num_rows > 0) {
-    echo "<div class='resultaten'>";
+    echo "<div class='resultatengenre'>
+
+    <h1>Genres</h1>
+    <h4>Dit zijn de genres die zijn ingezonden</h4>";
 
     //data in een tabel weergeven
 
     echo "<div class='wrappercontentgenre'>
+    
+
     <table id='tabelinfo' border='1'>
     <tr>
     <th>Genre naam</th>

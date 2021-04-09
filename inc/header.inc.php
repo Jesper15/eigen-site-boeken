@@ -26,9 +26,14 @@
     }
     ?>
 
-    <div class="navigatie">
-        <h1 class="naam">Jesper Otten</h1>
-        <ul class="nav">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <section class="navigatie">
+        <h1>Jesper Otten</h1>
+        <ul>
             <a href="index.php">Home</a>
             <a href="boeken.php">Boeken</a>
             <a href="inzendingen.php">Boeken inzenden</a>
@@ -38,15 +43,10 @@
             <a href="genres.php">Genres</a>
             <form method="POST">
                 <!-- plaatst hier die button -->
-                <button class="nav-button" name="logout" href="login.php"><?php echo $text; ?></button>
+                <button class="btn_loginpage" name="logout" href="login.php"><?php echo $text; ?></button>
             </form>
         </ul>
-    </div>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    </section>
 
 
 </head>

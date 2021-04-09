@@ -23,8 +23,6 @@ if (!$_SESSION['logged-in']) {
 </head>
 
 <body>
-    <h1>Boeken</h1>
-    <h4>Dit zijn de boeken die ik heb gelezen</h4>
 
 <?php
 //opstellen van de query
@@ -49,6 +47,9 @@ if($result->num_rows > 0) {
     //data in een tabel weergeven
 
     echo "<div class='wrappercontent'>
+    <h1>Boeken</h1>
+    <h4>Dit zijn de boeken die ik heb gelezen</h4>
+
     <table id='tabelinfo' border='1'>
     <tr>
     <th>Titel</th>

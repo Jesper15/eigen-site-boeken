@@ -23,8 +23,6 @@ if (!$_SESSION['logged-in']) {
 </head>
 
 <body>
-<h1>Schrijvers</h1>
-<h4>Dit is een lijst van de schrijvers die zijn ingezonden:</h4>
 
 <?php
 //opstellen van de query
@@ -44,6 +42,10 @@ if($result->num_rows > 0) {
     //data in een tabel weergeven
 
     echo "<div class='wrappercontent'>
+
+    <h1>Schrijvers</h1>
+    <h4>Dit is een lijst van de schrijvers die zijn ingezonden:</h4>
+
     <table id='tabelinfo' border='1'>
     <tr>
     <th>Naam</th>
