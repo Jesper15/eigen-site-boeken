@@ -1,5 +1,4 @@
 <?php include './inc/header.inc.php';
-include './inc/footer.inc.php';
 include './inc/db.inc.php';
 
 // checkt of sessie bestaat
@@ -72,5 +71,9 @@ if($result->num_rows > 0) {
 ?>
 
 </body>
+
+<?php
+include './inc/footer.inc.php';
+?>
 
 </html>

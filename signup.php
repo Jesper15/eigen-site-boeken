@@ -16,13 +16,13 @@ include 'inc/header.inc.php';
     <Form action="inc/signup.inc.php" method="POST" class="signup"><p>Create Account</p><br>
         <table class="register">
 
-                <td><input class="signup_input" type="text" name="fullName" placeholder="Full name" required></td>
+                <input class="signup_input" type="text" name="fullName" placeholder="Full name" required>
 
-                <td><input class="signup_input" type="text" name="email" placeholder="Email" required></td>
+                <input class="signup_input" type="text" name="email" placeholder="Email" required>
 
-                <td><input class="signup_input" type="password" name="password" placeholder="Enter Password" required></td>
+                <input class="signup_input" type="password" name="password" placeholder="Enter Password" required>
 
-                <td><input class="signup_input" type="password" name="repeatPassword" placeholder="Repeat password" required></td>
+                <input class="signup_input" type="password" name="repeatPassword" placeholder="Repeat password" required>
         </table>
 
         <button class="btn_signup" type="submit" name="submit">Sign up</button>
@@ -59,4 +59,8 @@ include 'inc/header.inc.php';
     ?>
 
 </body>
+
+<?php
+include './inc/footer.inc.php';
+?>
 </html>

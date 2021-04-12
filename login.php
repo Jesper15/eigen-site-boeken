@@ -63,9 +63,12 @@ include 'inc/header.inc.php';
     <footer class="footer2"></footer>
 
 </body>
+
+<?php
+include './inc/footer.inc.php';
+?>
+
 </html>
-    
-</body>
 
 
   

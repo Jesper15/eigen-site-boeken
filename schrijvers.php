@@ -1,5 +1,4 @@
 <?php include './inc/header.inc.php';
-include './inc/footer.inc.php';
 include './inc/db.inc.php';
 
 // checkt of sessie bestaat
@@ -70,6 +69,8 @@ if($result->num_rows > 0) {
 } else {
     echo "Geen schrijvers gevonden";
 }
+
+include './inc/footer.inc.php';
 
 ?>
 

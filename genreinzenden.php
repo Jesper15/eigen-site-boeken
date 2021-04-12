@@ -1,5 +1,4 @@
 <?php include './inc/header.inc.php';
-include './inc/footer.inc.php';
 include './inc/db.inc.php';
 
 // checkt of sessie bestaat
@@ -30,5 +29,9 @@ if (!$_SESSION['logged-in']) {
     <br>
 
     <button type="submit">Verzenden</button>
+
+    <?php
+    include './inc/footer.inc.php';
+    ?>
 
 </form>

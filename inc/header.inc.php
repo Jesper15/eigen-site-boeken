@@ -32,8 +32,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <section class="navigatie">
+
         <h1>Jesper Otten</h1>
-        <ul>
+        <ul class="nav">
             <a href="index.php">Home</a>
             <a href="boeken.php">Boeken</a>
             <a href="inzendingen.php">Boeken inzenden</a>
@@ -47,7 +48,6 @@
             </form>
         </ul>
     </section>
-
 
 </head>
 

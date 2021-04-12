@@ -6,6 +6,11 @@
     font-size: 1rem;
 }
 
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
 ul a {
     text-decoration: none;
 }
@@ -17,11 +22,6 @@ a {
 }
 
 /*Navigatie balk en naam*/
-
-.naam {
-    justify-content: flex-start;
-    width: 50%;
-}
 
 .navigatie2 {
     width: 25%;
@@ -51,6 +51,7 @@ a {
 .navigatie h1 {
     width: 25%;
     font-size: 30px;
+    color: white;
 }
 
 .navigatie form {
@@ -79,7 +80,7 @@ a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    margin-top: 300px;
+    margin-top: 10rem;
 }
 
 .login-input {
@@ -117,22 +118,11 @@ a {
 
 /*Signup page*/
 
-.register input{
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 2px solid #dddddd;
-    background: #ffffff;
-    outline: none;
-    transition: border-color 0.5s;
-}
-
 .signup {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 10rem;
     flex-direction: column;
 }
 
@@ -144,6 +134,13 @@ a {
     display: flex;
     flex-direction: row;
     width: 25%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
 }
 
 .btn_signup {
@@ -192,7 +189,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 250px;
+    padding: 3rem;
 }
 
 .wrappercontent h1 {
@@ -231,4 +228,12 @@ a {
 
 .resultatengenre {
     padding: 250px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
 }
