@@ -7,11 +7,5 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
-
 <footer>Copyright Jesper Otten 2021</footer>
-
-</body>
-
-
 </html>

@@ -87,5 +87,3 @@ if($result->num_rows > 0) {
 <?php
 include './inc/footer.inc.php';
 ?>
-
-</html>

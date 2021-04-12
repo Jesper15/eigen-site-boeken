@@ -70,10 +70,12 @@ if($result->num_rows > 0) {
     echo "Geen schrijvers gevonden";
 }
 
-include './inc/footer.inc.php';
-
 ?>
 
 </body>
+
+<?php
+include './inc/footer.inc.php';
+?>
 
 </html>
